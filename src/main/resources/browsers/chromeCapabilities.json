@@ -1,0 +1,19 @@
+{
+	"browserName": "chrome",
+	"goog:chromeOptions": {
+		"args": [
+			"disable-infobars",
+			"--ignore-certificate-errors",
+			"start-maximized","--lang=en-US"
+		],
+		"extensions": [],
+		"prefs": {
+			"printing.enabled": false,
+			"intl": {
+				"accept_languages": "en-US"
+			},
+			"intl.accept_languages": "en-us"
+		}
+	},
+	"platform": "ANY"
+} 
